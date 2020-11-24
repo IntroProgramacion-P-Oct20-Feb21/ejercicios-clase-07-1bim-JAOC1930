@@ -1,0 +1,9 @@
+1. Inicio
+2. num, i[0, n]
+3_ cadenaFinal, x(200)[{1-9},{a-z},{A-Z}, {/}]
+4. Para(num<--1, num<=10, 1) haga
+ // empieza en 1, itera hasta que num sea menor o igual a 10, incrementos de 1
+5_ cadenaFinal<--cadenaFinal + num + "\n"   
+6. Fin_Para
+7_ Escribir cadenaFinal 
+8. Fin

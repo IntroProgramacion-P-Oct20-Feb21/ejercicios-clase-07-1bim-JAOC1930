@@ -1,0 +1,20 @@
+1. Inicio
+// Variables
+2. contador, i[o,n] <-- 1
+3. nombre, x(200)[{a-z},{A-Z}]
+4. cpuntos, i[0,n]
+5. cfaltas, i[0,n]
+6. cadenaF, x(200)[{1-9},{a-z},{A-Z}, {BS}] <--""
+// Proceso
+7.  Haga_hasta
+8.   Escribir "Ingrese el nombre del jugador"
+9.   Leer nombre
+10.   Escribir "Ingrese la cantidad de puntos anotados"
+11.   Leer cpuntos
+12.   Escribir "Ingrese la cantidad de faltas"
+13.   Lea cfaltas
+14.   cadenaF <-- cadenaF + nombre + "\t" + cpuntos "\t" + cfaltas "\n"
+15_   contador= contador+1
+15. Fin Haga_Hasta (contador<=10)	
+17. Escribir cadenaF
+18. Fin
